@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-docs
+  description: test-docs
+  annotations:
+    github.com/project-slug: boss-test/docs-test-2
+    backstage.io/techdocs-ref: github:https://github.com/boss-test/docs-test-2
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: jag
